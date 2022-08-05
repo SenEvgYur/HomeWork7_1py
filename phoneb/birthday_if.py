@@ -1,4 +1,5 @@
 def birthday_if(text):         # печать ФИО и Даты рождения по указанным буквам
+    global contacts
     persons = []
     for i in contacts:
         if text in i:

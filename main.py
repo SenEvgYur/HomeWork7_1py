@@ -1,4 +1,4 @@
-import controller main_screen
+from controller import main_screen
 
 main_screen()
 

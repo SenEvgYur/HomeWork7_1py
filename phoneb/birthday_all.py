@@ -1,4 +1,5 @@
 def birthday_all():         # печать ФИО и Даты рождения всего справочника
+    global contacts
     persons = []
     for i in contacts:
         persons.append(i)

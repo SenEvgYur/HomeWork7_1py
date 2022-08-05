@@ -1,4 +1,5 @@
 def phone_if(text):       # печать ФИО и телефона по указанным буквам
+    global contacts
     persons = []
     for i in contacts:
         if text in i:
